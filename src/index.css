@@ -1,0 +1,25 @@
+:root {
+    --background-color: #F7F7EE;
+    --color-pink: #FA9B95;
+    --color-green: #9ECEB9;
+    --color-font: #13161F;
+}
+
+body {
+    background-color: var(--background-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
