@@ -1,0 +1,16 @@
+.wrapper{
+  position: fixed;
+  width: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 5px 0px;
+}

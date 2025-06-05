@@ -3,6 +3,8 @@
     --color-pink: #FA9B95;
     --color-green: #9ECEB9;
     --color-font: #13161F;
+    --max-width: 1200px;
+    --border-radius: 4px;
 }
 
 body {
