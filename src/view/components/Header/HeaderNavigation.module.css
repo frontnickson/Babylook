@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a:global(.active) {
+  color: var(--color-pink);
+}
+
+/*# sourceMappingURL=HeaderNavigation.module.css.map */
