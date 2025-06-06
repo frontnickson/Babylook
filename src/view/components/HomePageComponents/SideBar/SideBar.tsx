@@ -7,12 +7,12 @@ const list = [
     {
         id: 1,
         name: "Для мальчиков",
-        link: "/boys"
+        link: "/home/boys"
     },
     {
         id: 2,
         name: "Для девочек",
-        link: "/boys"
+        link: "/home/girl"
     },
 ]
 
