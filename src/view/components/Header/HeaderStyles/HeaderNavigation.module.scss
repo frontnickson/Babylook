@@ -8,3 +8,10 @@
 a:global(.active){
   color: var(--color-pink);
 }
+
+
+@media (max-width: 620px){
+  .container{
+    display: none;
+  }
+}

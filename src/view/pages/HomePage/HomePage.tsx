@@ -1,16 +1,14 @@
 import React from 'react';
 
-import SideBar from '../../components/HomePageComponents/SideBar/SideBar';
-import RightComponents from '../../components/HomePageComponents/RightComponents/RightComponents';
-
-import styles from './HomePage.module.scss'
-import LastPosts from '../../components/HomePageComponents/LastPosts/LastPosts';
+import Post from "../../components/Post/Post.tsx";
+import styles from './HomePage.module.scss';
+import UsefulArticle from "../../components/HomePageComponents/UsefulArticle/UsefulArticle.tsx";
 
 const HomePage: React.FC = () => {
   return (
     <div className={styles.container}>
-      <SideBar />
-      <LastPosts/>
+        <Post/>
+        <UsefulArticle/>
     </div>
   );
 };

@@ -1,4 +1,6 @@
-.container{
-    display: flex;
-    gap: 10px;
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }

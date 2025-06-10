@@ -2,9 +2,11 @@
     --background-color: #F7F7EE;
     --color-pink: #FA9B95;
     --color-green: #9ECEB9;
+    --color-blue: #2286da;
     --color-font: #13161F;
     --max-width: 1200px;
     --border-radius: 4px;
+    --padding-post: 15px;
 }
 
 body {
@@ -30,4 +32,9 @@ a{
 p{
     margin: 0;
     padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    paddiing: 0;
+    margin: 0;
 }

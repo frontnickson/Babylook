@@ -1,12 +1,12 @@
 import React from 'react';
-import LastPosts from '../LastPosts/LastPosts';
+import Post from '../../Post/Post.tsx';
 
 import styles from './RightComponents.module.scss'
 
 const RightComponents: React.FC = () => {
     return (
         <div className={styles.container}>
-            <LastPosts />
+            <Post />
         </div>
     );
 };
