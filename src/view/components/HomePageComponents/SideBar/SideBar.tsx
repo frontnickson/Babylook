@@ -6,13 +6,38 @@ import styles from './SideBar.module.scss'
 const list = [
     {
         id: 1,
-        name: "Для мальчиков",
-        link: "/home/boys"
+        name: "Топ образов",
+        link: "/top"
     },
     {
         id: 2,
+        name: "Тренды",
+        link: "/trends"
+    },
+    {
+        id: 3,
+        name: "Полезные статьи",
+        link: "/article"
+    },
+    {
+        id: 4,
+        name: "Рейтинг стилистов",
+        link: "/rating"
+    },
+    {
+        id: 5,
+        name: "Для мальчиков",
+        link: "/boys"
+    },
+    {
+        id: 6,
         name: "Для девочек",
-        link: "/home/girl"
+        link: "/girl"
+    },
+    {
+        id: 7,
+        name: "Обсуждение",
+        link: "/discussion"
     },
 ]
 

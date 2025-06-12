@@ -12,7 +12,6 @@ const App: React.FC = () => {
         <div className={styles.container}>
             <Header/>
 
-
             <div className={styles.main}>
                 <SideBar/>
                 <AppRoutes/>

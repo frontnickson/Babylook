@@ -26,7 +26,7 @@ const HeaderMenuList: React.FC = () => {
                 <ul key={item.id}>
                     <li>
                         <NavLink to={item.link}>
-                            <p>{item.name}</p>
+                            <p style={{cursor: 'pointer'}}>{item.name}</p>
                         </NavLink>
                     </li>
                 </ul>
