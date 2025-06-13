@@ -1,9 +1,8 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 import icon from '../../../assets/images/header-navigation/profile-icon-woman.svg'
 
 import styles from '../HeaderStyles/HeaderButton.module.scss';
-import {Link} from "react-router-dom";
 
 const HeaderButton: React.FC = () => {
     return (
