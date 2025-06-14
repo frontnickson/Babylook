@@ -66,7 +66,7 @@ const Post: React.FC = () => {
                         <div className={styles.descreption}>
                             <h3>{item.title}</h3>
                             <p>{item.descreption}</p>
-                            <p className={styles.descreption_p}>Читать далее...</p>
+                            <p className={styles.descreption_p}><u>Просмотреть ссылки на товары</u></p>
                         </div>
 
                         {/*Лайки/Дизлайки/Комменты*/}

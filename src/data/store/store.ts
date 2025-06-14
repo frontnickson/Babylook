@@ -18,7 +18,7 @@ const persistConfig = {
 };
 
 const combinerReducers = combineReducers({
-    name: userSlice,
+    user: userSlice,
 })
 
 const persistedReducer = persistReducer(persistConfig, combinerReducers);
@@ -34,3 +34,7 @@ export const store = configureStore({
 });
 
 export const persistor = persistStore(store);
+
+export type AppStore = typeof store
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = AppStore['dispatch']

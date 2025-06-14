@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     id: 0,
-    uuid: "",
+    uuid: 0,
     email: "",
     emailVerified: false,
     phone: "",
@@ -14,7 +14,12 @@ const initialState = {
         avatar: "",
         gender: "",
         location: "",
-        timezone: ""
+        timezone: "",
+        date: {
+            day: "",
+            month: "",
+            year: "",
+        }
     },
     auth: {
         token: "",
@@ -27,6 +32,7 @@ const initialState = {
     },
     content: {
         posts: [],
+        favoritesPost: [],
         comments: [],
         likes: [],
         media: [],
@@ -44,10 +50,11 @@ const userSlice = createSlice({
     name: "user",
     initialState,
     reducers: {
-        addUser: (state, action) => {
-            state.id = action.payload.id;
+        addDay: (state, action) => {
+            state.profile.date.day = action.payload;
         }
     }
 })
 
+export const { addDay } = userSlice.actions;
 export default userSlice.reducer;
