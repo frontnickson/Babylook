@@ -6,7 +6,7 @@ import styles from './FavoritesPage.module.scss'
 const FavoritesPage: React.FC = () => {
   return (
     <div className={styles.container}>
-        <Post/>
+      <Post />
     </div>
   );
 };

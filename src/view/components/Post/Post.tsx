@@ -36,7 +36,7 @@ const list = [
 
 const Post: React.FC = () => {
     return (
-        <div className={styles.container}>
+        <>
 
             {list.map((item) => (
                 <ul key={item.id}>
@@ -90,7 +90,7 @@ const Post: React.FC = () => {
                 </ul>
             ))}
 
-        </div>
+        </>
     );
 };
 

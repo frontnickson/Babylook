@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-pink);
+  border-radius: var(--border-radius);
+  padding: 25px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+/*# sourceMappingURL=UsefulArticle.module.css.map */

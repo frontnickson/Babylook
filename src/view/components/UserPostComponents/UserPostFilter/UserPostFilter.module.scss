@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    gap: 15px;
+}
+
+.select{
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button{
+    background: var(--color-blue);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}

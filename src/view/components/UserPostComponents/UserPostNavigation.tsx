@@ -4,7 +4,7 @@ import UserPostSearch from "./UserPostSearch/UserPostSearch.tsx";
 import UserPostFilter from "./UserPostFilter/UserPostFilter.tsx";
 import styles from './UserPostComponents.module.scss'
 
-const UserPostComponents: React.FC = () => {
+const UserPostNavigation: React.FC = () => {
     return (
         <div className={styles.container}>
             <UserPostSearch/>
@@ -13,4 +13,4 @@ const UserPostComponents: React.FC = () => {
     );
 };
 
-export default UserPostComponents;
+export default UserPostNavigation;

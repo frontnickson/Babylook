@@ -6,17 +6,19 @@ import UserfulService from "../../components/HomePageComponents/UserfulService/U
 import UsefulArticle from "../../components/HomePageComponents/UsefulArticle/UsefulArticle.tsx";
 
 const HomePage: React.FC = () => {
-  return (
-    <div className={styles.container}>
-        <div className={styles.section}>
-            <Post/>
-            <UserfulService/>
+    return (
+        <div className={styles.container}>
+            <div className={styles.section}>
+                <div className={styles.section_post}>
+                    <Post/>
+                </div>
+                <UserfulService/>
+            </div>
+            <div>
+                <UsefulArticle/>
+            </div>
         </div>
-        <div>
-            <UsefulArticle/>
-        </div>
-    </div>
-  );
+    );
 };
 
 export default HomePage;

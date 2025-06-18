@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section {
+  display: flex;
+  gap: 15px;
+}
+.section_post {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=HomePage.module.css.map */

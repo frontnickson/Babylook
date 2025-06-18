@@ -1,0 +1,11 @@
+.container {
+  display: none;
+}
+
+@media (max-width: 620px) {
+  .container {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=HeaderBurgerMenu.module.css.map */

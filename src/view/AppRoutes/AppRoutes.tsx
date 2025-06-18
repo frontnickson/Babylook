@@ -6,6 +6,7 @@ import UserPosts from "../pages/UserPosts/UserPosts.tsx";
 import FavoritesPage from "../pages/FavoritesPage/FavoritesPage.tsx";
 import AuthorizationPage from "../pages/AuthorizationPage/AuthorizationPage.tsx";
 import EditProfilePage from "../pages/EditProfilePage/EditProfilePage.tsx";
+import TopPage from '../pages/TopPage/TopPage.tsx';
 
 const AppRoutes: React.FC = () => {
     return (
@@ -16,6 +17,7 @@ const AppRoutes: React.FC = () => {
             <Route path="/posts" element={<UserPosts />} />
             <Route path="/favorite" element={<FavoritesPage />} />
             <Route path="/authorization" element={<AuthorizationPage />} />
+            <Route path="/top" element={<TopPage />} />
         </Routes>
     );
 };

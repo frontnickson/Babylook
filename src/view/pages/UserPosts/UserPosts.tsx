@@ -1,13 +1,13 @@
 import React from 'react';
+import Post from "../../components/Post/Post.tsx";
+import UserPostNavigation from '../../components/UserPostComponents/UserPostNavigation.tsx';
 
 import styles from './UserPosts.module.scss'
-import Post from "../../components/Post/Post.tsx";
-import UserPostComponents from "../../components/UserPostComponents/UserPostComponents.tsx";
 
 const UserPosts: React.FC = () => {
     return (
         <div className={styles.container}>
-            <UserPostComponents/>
+            <UserPostNavigation/>
             <Post/>
         </div>
     );
