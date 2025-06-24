@@ -1,3 +1,8 @@
-
+.search {
+  height: 40px;
+  width: 100%;
+  border-radius: var(--border-radius);
+  border: 1px solid gray;
+}
 
 /*# sourceMappingURL=UserPostSearch.module.css.map */

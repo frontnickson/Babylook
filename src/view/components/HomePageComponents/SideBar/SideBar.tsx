@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import styles from './SideBar.module.scss'
 
@@ -44,6 +44,7 @@ const list = [
 const SideBar: React.FC = () => {
     return (
         <div className={styles.container}>
+
             {list.map(item => (
                 <ul key={item.id}>
                     <li>
@@ -53,6 +54,7 @@ const SideBar: React.FC = () => {
                     </li>
                 </ul>
             ))}
+
         </div>
     );
 };

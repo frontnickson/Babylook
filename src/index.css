@@ -3,6 +3,7 @@
     --color-pink: #FA9B95;
     --color-green: #9ECEB9;
     --color-blue: #2286da;
+    --color-yellow: #ceda22;
     --color-font: #13161F;
     --max-width: 1200px;
     --border-radius: 4px;
@@ -27,7 +28,6 @@ ul {
 a{
     text-decoration: none;
     color: inherit;
-    font-size: 19px;
 }
 
 

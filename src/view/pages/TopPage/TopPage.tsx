@@ -1,15 +1,14 @@
 import React from 'react';
 
-// import { Link } from 'react-router-dom';
-// import winterImage from '../../assets/images/top-year/winter-baby.png'
-
+// import image from '../../assets/images/top-year/winter-baby.png'
 import styles from './TopPage.module.scss'
+import {useNavigate} from "react-router-dom";
 
 const list = [
     {
         id: 1,
         title: "Зима",
-        link: "/top/winter"
+        link: "/top/winter",
     },
     {
         id: 2,
@@ -29,15 +28,24 @@ const list = [
 ]
 
 const TopPage: React.FC = () => {
+
+    const navigate = useNavigate();
+
+    const handleLink = (link: string) => {
+        navigate(link)
+    }
+
     return (
         <div className={styles.container}>
-            {list.map((element) => (
-                <ul key={element.id}>
-                    <li key={element.id} className={styles.list}>
-                        <p>{element.title}</p>
+            <ul>
+                {list.map((item) => (
+                    <li key={item.id} className={styles.list} onClick={() => {
+                        handleLink(item.link)
+                    }}>
+                        <h1>{item.title}</h1>
                     </li>
-                </ul>
-            ))}
+                ))}
+            </ul>
         </div>
     );
 };
